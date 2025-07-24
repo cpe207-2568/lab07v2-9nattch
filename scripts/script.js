@@ -101,7 +101,8 @@ submitBtn.onclick = () => {
   }
 
 if (isFirstNameOk && isLastNameOk && isEmailOk && isPasswordOk && isConfirmPasswordOk)
-  alert("Registered successfully");};
+  alert("Registered successfully");
+};
 
 clearBtn.onclick = () => {
   firstNameInput.value = "";
